@@ -20,7 +20,8 @@ const translations = {
   // Add more languages here
 };
 function displayChart() {
-  fetch(`https://backend-i94k.onrender.com/api/products/${productName}`)
+  fetch('https://backend-i94k.onrender.com/api/products')
+
 
     .then(response => response.json())
     .then(data => {
