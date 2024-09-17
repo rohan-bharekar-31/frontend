@@ -1,0 +1,112 @@
+/* General reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  color: #333;
+}
+
+.container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+label {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+  display: block;
+}
+
+select, input[type="text"] {
+  padding: 10px;
+  width: calc(100% - 20px);
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #333;
+}
+
+select {
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+button {
+  padding: 12px 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#availableProducts {
+  margin-top: 20px;
+}
+
+#availableProducts h3 {
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#availableProducts ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#availableProducts ul li {
+  font-size: 1rem;
+  background-color: #f7f7f7;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+#availableProducts ul li:hover {
+  background-color: #e2e6ea;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  color: #007bff;
+}
+
+#result p {
+  padding: 10px;
+  background-color: #f0f4f8;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
